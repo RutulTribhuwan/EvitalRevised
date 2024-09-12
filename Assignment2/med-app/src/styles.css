@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Toolbar styles */
+  /* mat-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+  mat-toolbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  
+  mat-toolbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Spacer class for navigation toolbar */
+  /* .spacer {
+    flex: 1 1 auto;
+  } */
+   /* */ 
+  /* Main content styles */
+  .content {
+    margin-top: 64px; 
+    padding: 16px;
+  }
+  
+  /* Footer styles */
+  /* mat-toolbar.mat-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+  } */
+  
+  /* Form styles */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    margin: 8px 0;
+  }
+  
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard-search {
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-results {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 16px;
+  }
+  
+  .dashboard-results mat-card {
+    margin-bottom: 16px;
+  }
+  
+  
+  .patient-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  
+  .checkout-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .checkout-patient-info,
+  .checkout-medicines {
+    margin-bottom: 16px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .content {
+      padding: 8px;
+    }
+  }
+  

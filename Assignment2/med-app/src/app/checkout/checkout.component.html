@@ -1,0 +1,14 @@
+<div *ngIf="patient">
+    <h2>Patient Details</h2>
+    <p>Name: {{ patient.name }}</p>
+    <p>Age: {{ patient.age }}</p>
+    <p>Address: {{ patient.address }}</p>
+  </div>
+  
+  <h2>Medicines</h2>
+  <div *ngFor="let medicine of medicines">
+    {{ medicine.name }}
+  </div>
+  
+  <button mat-raised-button (click)="placeOrder()">Place Order</button>
+  

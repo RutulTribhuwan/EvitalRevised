@@ -1,0 +1,17 @@
+<mat-form-field>
+  <mat-label>Search Medicines</mat-label>
+  <input matInput [(ngModel)]="searchQuery" (input)="onSearch()">
+</mat-form-field>
+
+<div *ngFor="let medicine of medicines">
+  
+ <h3>{{ medicine.medicine_name }}</h3>
+        <p><strong>Content:</strong> {{ medicine.content }}</p>
+        <p><strong>Price:</strong> ₹{{ medicine.price }}</p>
+        <p><strong>Manufacturer:</strong> {{ medicine.manufacturer_name }}</p>
+        <p><strong>Dosage Type:</strong> {{ medicine.dosage_type }}</p>
+        <p><strong>Packing Size:</strong> {{ medicine.packing_size }}</p>
+        <p><strong>Available for Patient:</strong> {{ medicine.available_for_patient }}</p>
+        <p><strong>Discontinued:</strong> {{ medicine.discontinued }}</p>
+      
+</div>
